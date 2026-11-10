@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+
+  --font-display: 'Archivo Narrow', sans-serif;  
+  --font-body: 'Archivo', sans-serif;               
+  --font-label: 'JetBrains Mono', monospace;
+       
+}
+
+.font-label {
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+html { scroll-behavior: smooth; }
